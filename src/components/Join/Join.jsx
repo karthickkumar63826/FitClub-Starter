@@ -43,7 +43,10 @@ export const Join = () => {
             name="user_email"
             placeholder="Enter your email address"
           />
-          <button className="btn btn-j"> Join Now</button>
+          <button className="btn btn-j" type="submit">
+            {" "}
+            Join Now
+          </button>
         </form>
       </div>
     </div>
